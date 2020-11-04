@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+    
+        <script src="script.js"></script> 
+        <script src="templates.js"></script> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="styles.css">
+        <title>Math Helper</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <body onload="main()">    
+        
+        <div id="section1" class="problem"></div>
+        <div id="section2" class="problem"></div>
+        
+        <br>
+        
+        <form>
+            <label for="answer">Answer Here:</label>
+            <input type="text" id="answer" name="fanswer">
+            <button onclick="checkAns()" type="button" id="check">Check Answer</button>
+            <button onclick="showAll()" type="button" class="devTool">Show Answer</button>
+            <button onclick="hideAll()" type="button" class="devTool">Hide Answer</button>
+            
+        </form>
+        
+        <br>
+        <div id="status" class=""></div>
+        <br>
+        
+        <div id="section3" class="invisible"></div>
+        <div id="section4" class="invisible"></div>
+        <div id="section5" class="invisible"></div>
+        <div id="section6" class="invisible"></div>
+        <div id="section7" class="invisible"></div>
+        <div id="section8" class="invisible"></div>
+        <div id="section9" class="invisible"></div>
+        <div id="section10" class="invisible"></div>
+        <br>
+        <button onclick="NextQuestion()" id="contBut" class="invisible">Continue</button>
+    </body>
+    <footer><a href="references.html">References</a></footer>

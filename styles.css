@@ -1,0 +1,38 @@
+html{
+    background: black;
+    color: white;
+    text-align: center;
+}
+body{
+    margin-top: 20%;
+}
+footer{
+    margin-top: 15%;
+}
+.invisible
+{
+    visibility: hidden;
+}
+
+.problem
+{
+    font-size: 200%;
+}
+
+.nice
+{
+    color: green;
+    font-size: 200%
+}
+
+.tryAgain
+{
+    color: red;
+    font-size: 200%
+}
+
+.devTool
+{
+    background-color: green;
+    border: none;
+}
